@@ -7,7 +7,6 @@
 meteor-platform
 semantic:ui
 fastclick
-dvz:orion-semantic-ui
 orionjs:core
 flemay:less-autoprefixer
 momentjs:moment
@@ -19,3 +18,4 @@ accounts-password
 dburles:collection-helpers
 useraccounts:semantic-ui
 iron:router
+dvz:orion-semantic-ui
