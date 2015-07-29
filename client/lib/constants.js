@@ -5,6 +5,6 @@ if (Meteor.App) {
 }
 
 Meteor.App = {
-  NAME: 'Orion Semantic UI Demo',
+  NAME: 'Orion Semantic-UI Demo',
   DESCRIPTION: 'Demo to test and showcase the Orion Semantic-UI package.'
 };
