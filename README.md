@@ -12,7 +12,7 @@
   * [dburles:collection-helpers](https://github.com/dburles/meteor-collection-helpers/)
 * Accounts
   * [accounts-password](https://github.com/meteor/meteor/tree/devel/packages/accounts-password)
-  * [useraccounts:seamntic-ui](https://github.com/meteor-useraccounts/semantic-ui)
+  * [useraccounts:semantic-ui](https://github.com/meteor-useraccounts/semantic-ui)
   * [nicolaslopezj:roles](https://github.com/nicolaslopezj/roles)
 * CMS
   * [orionjs:core](https://github.com/orionjs/orion)
