@@ -5,8 +5,17 @@
 # but you can also edit it by hand.
 
 meteor-platform
-autopublish
-insecure
 semantic:ui
 fastclick
 dvz:orion-semantic-ui
+orionjs:core
+flemay:less-autoprefixer
+momentjs:moment
+msavin:mongol
+manuelschoebel:ms-seo
+orionjs:froala
+nicolaslopezj:roles
+accounts-password
+dburles:collection-helpers
+useraccounts:semantic-ui
+iron:router
