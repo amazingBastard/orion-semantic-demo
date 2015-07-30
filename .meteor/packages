@@ -17,5 +17,5 @@ accounts-password
 dburles:collection-helpers
 useraccounts:semantic-ui
 iron:router
-dvz:orion-semantic-ui
 semantic:ui-css
+dvz:orion-semantic-ui
