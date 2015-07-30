@@ -20,7 +20,7 @@
   * [orionjs:froala](https://github.com/orionjs/orion/tree/master/packages/summernote)
 * UI and UX
   * [fastclick](https://github.com/meteor/meteor/tree/devel/packages/fastclick)
-	* [semantic:ui](https://github.com/Semantic-Org/Semantic-UI-Meteor)
+	* [semantic:ui-css](https://github.com/Semantic-Org/Semantic-UI-CSS/)
 * SEO
   * [manuelschoebel:ms-seo](https://github.com/DerMambo/ms-seo)
 * Development
