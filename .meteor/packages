@@ -5,7 +5,6 @@
 # but you can also edit it by hand.
 
 meteor-platform
-semantic:ui
 fastclick
 orionjs:core
 flemay:less-autoprefixer
@@ -19,3 +18,4 @@ dburles:collection-helpers
 useraccounts:semantic-ui
 iron:router
 dvz:orion-semantic-ui
+semantic:ui-css
