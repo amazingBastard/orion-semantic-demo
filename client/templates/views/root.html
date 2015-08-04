@@ -1,7 +1,15 @@
 <template name="root">
   <div class="root view">
     {{# unless currentUser }}
-	    <p><b>Register to edit the content of this site</b></p>
+      <div class="ui info icon message">
+        <i class="announcement icon"></i>
+        <div class="content">
+          <div class="header">
+            Register to edit the content of this site
+          </div>
+          <p>Go to /admin to register and/or login</p>
+        </div>
+      </div>
 	  {{/unless}}
 	  <p>
       Orion allows the admin to easily
