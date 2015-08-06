@@ -1,11 +1,11 @@
 <template name="post">
   <div class="post module">
     <h2 class="ui header">
-			{{ title }}
-			<small>by {{ getCreator.profile.name }}</small>
+			{{title}}
+			<small>by {{getCreator.profile.name}}</small>
 		</h2>
-		<a href="{{ pathFor 'post' }}">
-			<div class="image" style="background-image: url({{ image.url }})"></div>
+		<a href="{{pathFor 'post'}}">
+			<img class="image" src="{{image.url}}" />
 		</a>
   </div>
 </template>
