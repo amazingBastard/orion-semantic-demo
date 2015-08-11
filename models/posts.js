@@ -9,7 +9,7 @@ Posts = new orion.collection('posts', {
   pluralName: orion.helpers.getTranslation('posts.pluralName'), // The name of more than one of this items
   title: orion.helpers.getTranslation('posts.title'), // The title of the page
   link: {
-    
+
     // The text that you want to show in the sidebar.
     // The default value is the name of the collection, so
     // in this case is not necesary
@@ -29,7 +29,7 @@ Posts = new orion.collection('posts', {
       // orion.attributeColumn(attributeType, key, label)
 
       orion.attributeColumn('file', 'image', orion.helpers.getTranslation('posts.schema.image')),
-      orion.attributeColumn('summernote', 'body', orion.helpers.getTranslation('posts.schema.body')),
+      orion.attributeColumn('froala', 'body', orion.helpers.getTranslation('posts.schema.body')),
       orion.attributeColumn('createdBy', 'createdBy', orion.helpers.getTranslation('posts.schema.createdBy')),
       orion.attributeColumn('createdAt', 'createdAt', orion.helpers.getTranslation('posts.schema.createdAt'))
     ]
