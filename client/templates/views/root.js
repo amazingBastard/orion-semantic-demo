@@ -1,5 +1,5 @@
 Template.root.onRendered(function() {
-	this.subscribe('postsWithUsers')
+	this.subscribe('posts')
 });
 
 Template.root.helpers({

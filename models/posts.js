@@ -14,8 +14,7 @@ Posts = new orion.collection('posts', {
     // The default value is the name of the collection, so
     // in this case is not necesary
 
-    title: orion.helpers.getTranslation('posts.title'),
-    parent: 'dictionary-update'
+    title: orion.helpers.getTranslation('posts.title')
   },
 
   // Tabular settings for this collection
@@ -42,7 +41,8 @@ Posts = new orion.collection('posts', {
 Posts.attachSchema(new SimpleSchema({
   title: {
     type: String,
-    label: orion.helpers.getTranslation('posts.schema.title') // We use this function to make i18n work in autoform
+    label: orion.helpers.getTranslation('posts.schema.title'), // We use this function to make i18n work in autoform
+    max: 50
   },
 
   // The file attribute is a custom orion attribute
