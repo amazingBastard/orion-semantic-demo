@@ -20,3 +20,6 @@ iron:router
 semantic:ui-css
 dvz:orion-semantic-ui
 orionjs:file-attribute
+orionjs:filesystem
+orionjs:s3
+orionjs:pages
