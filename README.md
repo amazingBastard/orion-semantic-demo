@@ -31,3 +31,39 @@
   * [flemay:less-autoprefixer](https://github.com/flemay/less-autoprefixer/)
   * [momentjs:moment](https://github.com/moment/moment/)
   * [msavin:mongol](https://github.com/msavin/Mongol)
+
+## Folder structure
+
+  ```
+  client/             # Client folder
+    compatibility/      # Libraries which create a global variable
+    config/             # Configuration files (on the client)
+    lib/                # Library files that get executed first
+    startup/            # Javascript files on Meteor.startup()
+    stylesheets         # LESS files
+    templates/          # Contains all templates
+      layouts/            # Router layouts
+      views/              # All the views
+      modules/            # UI elements and components (i.e. forms, actions, etc...)
+  orion/              # Orion CMS files
+    dictionary/         # Orion dictionary definitions
+    lib/                # Configs or files you want loaded first
+    roles/              # CMS user roles
+  models/             # Model files, for each Meteor.Collection
+  private/            # Private files
+  public/             # Public files
+  router/             # All router related things
+  server/             # Server folder
+    fixtures/           # Meteor.Collection fixtures defined
+    methods/            # Server methods
+    lib/                # Server side library folder
+    publications/       # Collection publications
+    startup/            # On server startup
+  tests/              # All tests
+    client/             # client tests
+      integration/        # integration tests
+      unit/               # unit tests
+    server/             # server tests
+      integration/        # integration tests
+      unit/               # unit tests
+  ```
