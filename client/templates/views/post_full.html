@@ -1,5 +1,12 @@
 <template name="postFull">
 	<div class="full post view">
-		{{> post}}
+		<h2 class="ui header">
+			{{post.title}}
+			<small>by {{post.getCreator.profile.name}}</small>
+		</h2>
+		<img class="ui image" src="{{post.image.url}}" />
+		<div class="content">
+			{{{post.body}}}
+		</div>
 	</div>
 </template>

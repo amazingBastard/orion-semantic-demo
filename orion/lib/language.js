@@ -3,14 +3,6 @@
 i18n.map('en', {
   accountsPictureLabel: 'Avatar',
   accountsNameLabel: 'Name',
-  dictionary: {
-    images: {
-      logo: 'Site Logo'
-    },
-    public: {
-      homeText: 'home text'
-    }
-  },
   posts: {
     singularName: 'post',
     pluralName: 'posts',

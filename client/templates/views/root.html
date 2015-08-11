@@ -11,11 +11,11 @@
         </div>
       </div>
 	  {{/unless}}
-	  <p>
+	  <p class="info">
       Orion allows the admin to easily
       <a href="{{pathFor 'dictionary.update'}}">edit</a>
 		  content of the site, like the following text:
-		  <i>"{{ dict 'public.homeText' }}"</i>.
+		  <i>"{{ dict 'root.demo' }}"</i>.
 	  </p>
 	  {{#each posts}}
 		  {{> post}}
