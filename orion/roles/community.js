@@ -1,6 +1,6 @@
 //We will create a new role that will allow
 // not-admin users to edit posts
-
+/*
 CommunityRole = new Roles.Role('community');
 
 // We will allow users to edit the dictionary
@@ -47,3 +47,4 @@ CommunityRole.allow('collections.posts.showUpdate', function(doc) {
 CommunityRole.allow('collections.posts.showRemove', function(doc) {
   return doc.createdBy == this.userId;
 });
+*/

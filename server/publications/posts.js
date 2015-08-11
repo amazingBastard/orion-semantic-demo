@@ -5,7 +5,7 @@ Meteor.publish('posts', function () {
 });
 
 // Publish posts with all the creators profiles
-
+/*
 Meteor.publishComposite('postsWithUsers', {
   find: function() {
     return Posts.find();
@@ -15,7 +15,7 @@ Meteor.publishComposite('postsWithUsers', {
       return Meteor.users.find({ _id: post.createdBy }, { fields: { profile: 1 } });
     }
   }]
-})
+});
 
 // Publish one post specifically with its creator profile
 
@@ -31,4 +31,5 @@ Meteor.publishComposite('onePostWithUser', function(postId) {
       }
     }]
   }
-})
+});
+*/

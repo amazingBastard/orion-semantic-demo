@@ -19,3 +19,4 @@ useraccounts:semantic-ui
 iron:router
 semantic:ui-css
 dvz:orion-semantic-ui
+orionjs:file-attribute
