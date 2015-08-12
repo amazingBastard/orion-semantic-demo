@@ -18,8 +18,8 @@ dburles:collection-helpers
 useraccounts:semantic-ui
 iron:router
 semantic:ui-css
-dvz:orion-semantic-ui
 orionjs:file-attribute
 orionjs:filesystem
 orionjs:s3
 orionjs:pages
+dvz:orion-semantic-ui
