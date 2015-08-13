@@ -10,7 +10,6 @@ flemay:less-autoprefixer
 momentjs:moment
 msavin:mongol
 manuelschoebel:ms-seo
-orionjs:froala
 nicolaslopezj:roles
 accounts-password
 dburles:collection-helpers
@@ -23,3 +22,4 @@ orionjs:s3
 orionjs:pages
 orionjs:core
 dvz:orion-semantic-ui
+orionjs:froala
