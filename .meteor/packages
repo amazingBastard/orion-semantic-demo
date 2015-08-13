@@ -6,7 +6,6 @@
 
 meteor-platform
 fastclick
-orionjs:core
 flemay:less-autoprefixer
 momentjs:moment
 msavin:mongol
@@ -22,4 +21,5 @@ orionjs:file-attribute
 orionjs:filesystem
 orionjs:s3
 orionjs:pages
+orionjs:core
 dvz:orion-semantic-ui
