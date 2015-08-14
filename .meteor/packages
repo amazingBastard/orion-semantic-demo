@@ -21,5 +21,5 @@ orionjs:filesystem
 orionjs:s3
 orionjs:pages
 orionjs:core
-dvz:orion-semantic-ui
 orionjs:froala
+dvz:orion-semantic-ui
