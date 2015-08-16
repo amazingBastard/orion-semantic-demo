@@ -2,11 +2,7 @@
 
 // To allow the creation of users
 
-Options.set('forbidClientAccountCreation', false);
-
-// To set the community role to all new users
-
-Options.arrayPush('defaultRoles', 'community');
+Options.set('forbidClientAccountCreation', true);
 
 // To set the schema of the user profile, so we can
 
